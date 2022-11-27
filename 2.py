@@ -78,6 +78,6 @@ while x <= size and x >= 0 and y <= size and y >= 0:
     canvas.create_rectangle(x, y, x+7, y+7, fill=rainbow_colors[color_index % len(rainbow_colors)], outline=rainbow_colors[color_index % len(rainbow_colors)])
     color_index += 1
     root.update()
-    sleep(0.005)
+    sleep(0.07)
 
 root.mainloop()
